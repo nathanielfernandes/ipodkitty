@@ -18,7 +18,7 @@ func Get(w http.ResponseWriter, r *http.Request, p httprouter.Params) {
 		return
 	}
 
-	cover := spvEndpoint + track + "/cover/small"
+	cover := spvEndpoint + track + "/cover/large"
 	payload := RunPayload{
 		Size: []int{330, 330},
 		Files: []File{
