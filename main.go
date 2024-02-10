@@ -58,8 +58,8 @@ func main() {
 	router := httprouter.New()
 	router.GET("/:track", Get)
 
-	fmt.Println("listening on :8080")
-	if err := http.ListenAndServe(":8080", router); err != nil {
+	fmt.Println("listening on :80")
+	if err := http.ListenAndServe("0.0.0.0:80", router); err != nil {
 		panic(err)
 	}
 }
