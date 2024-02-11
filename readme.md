@@ -1,5 +1,7 @@
 # ipod kitty
 
+lil blog -> https://nathanielfernandes.ca/blog/ipodkitty
+
 an endpoint that takes a spotify trackid and redirects to an image
 of a cat listening to that song on an ipod.
 
